@@ -48,7 +48,8 @@ The following image is based on the model training. Training summary;
 
 ## Results
 
-![Uploading results.png…]()
+Training results; 
+![results](https://github.com/user-attachments/assets/93a37212-09b1-4585-b3eb-71832391f320)
 
 
 ## Installation
@@ -62,4 +63,4 @@ cd ultralytics
 pip install -r requirements.txt
 
 ## Download the model
-
+https://github.com/tikiya99/UAV-and-Bird-Identification.git
