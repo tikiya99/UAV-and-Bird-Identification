@@ -33,24 +33,22 @@ UAVBirds/
 ## Screenshots
 
 The following image is based on the model training. Training summary;
+![Screenshot from 2025-05-11 21-01-57](https://github.com/user-attachments/assets/088cd9c9-5df8-4b07-8e20-7011a45f0c9d)
 
 
 Test video;
 
-
-##
 
 
 ## 🛠 Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/[USERNAME]/[REPO-NAME].git
-cd [REPO-NAME]
+git clone https://github.com/ultralytics/ultralytics
+cd ultralytics
 
 # Install dependencies (choose one)
-npm install
-# or
 pip install -r requirements.txt
 
-## 🛠 Installation
+## Download the model
+
