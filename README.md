@@ -9,7 +9,6 @@ This repository consists of the codebase for the UAV and Bird identification mod
 - [Screenshots](#screenshots)
 - [Results](#results)
 - [Installation](#installation)
-- [Conclusion](#conclusion)
 
 ## Introduction
 
@@ -17,27 +16,26 @@ The model here is trained to identify birds and UAVs (Drones) for safety purpose
 
 ## Dataset
 This is a custom dataset that integrates multiple datasets for more scenarios.
-The following are the data instances for each defect.
-          Images        Instances
-Birds       3581           22620
+The following are the data instances for each defect. <br>
+          Images        Instances <br>
+Birds       3581           22620  <br>
 UAV         3334            3571 
 
 ## File Structure
 
-UAVBirds/
-├── merged/                 # Static assets (images, favicon, etc.)
-│   └── Images/
-│   │   └── Test/         # Reusable components
-│   │   ├── Train/         # Reusable components
-│   │   └── Valid/         # Reusable components
-│   ├── Labels/         # Reusable components
-│   │   └── Test/         # Reusable components
-│   │   ├── Train/         # Reusable components
-│   │   └── Valid/         # Reusable components
-│   └── data,yaml              # Root component
-├── Weights
-├── README.md               # Project documentation
-└── LICENSE                 # License file
+UAVBirds/ <br>
+├── merged/  <br>           
+│   └── Images/ <br>
+│   │   └── Test/ <br>  
+│   │   ├── Train/ <br>   
+│   │   └── Valid/ <br>     
+│   ├── Labels/ <br>     
+│   │   └── Test/ <br>      
+│   │   ├── Train/ <br>    
+│   │   └── Valid/ <br>      
+│   └── data,yaml <br>         
+├── Weights #best and last .pt files  <br>
+└── README.md <br>        
 
 
 ## Screenshots
