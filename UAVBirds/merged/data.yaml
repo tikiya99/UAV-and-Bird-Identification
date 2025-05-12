@@ -1,0 +1,6 @@
+train: /home/thasinduwickrama/Videos/UAVBirds/merged/images/train
+val: /home/thasinduwickrama/Videos/UAVBirds/merged/images/valid
+test: /home/thasinduwickrama/Videos/UAVBirds/merged/images/test
+
+nc: 2
+names: ['bird', 'uav']
