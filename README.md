@@ -13,7 +13,7 @@ This repository consists of the codebase for the UAV and Bird identification mod
 
 ## Introduction
 
-The model here is trained to identify birds and UAVs (Drones) for safety purposes. The model proposed an accuracy above 95% in all classes and for Birds and UAVs separately. The ultimate goal of developing this model was to run it in real-time with lower inference time and better accuracy when compared to other lightweight models
+The model here is trained to identify birds and UAVs (Drones) for safety purposes. The model proposed an accuracy above 90% in all classes and for Birds and UAVs separately. The ultimate goal of developing this model was to run it in real-time with lower inference time and better accuracy when compared to other lightweight models
 
 ## Dataset
 This is a custom dataset that integrates multiple datasets for more scenarios.
@@ -27,55 +27,24 @@ UAV         3334            3571
 UAVBirds/
 ├── merged/                 # Static assets (images, favicon, etc.)
 │   └── Images/
-│       └── Test/         # Reusable components
-│       ├── Train/         # Reusable components
-│       └── Valid/         # Reusable components
+│   │   └── Test/         # Reusable components
+│   │   ├── Train/         # Reusable components
+│   │   └── Valid/         # Reusable components
 │   ├── Labels/         # Reusable components
-│       └── Test/         # Reusable components
-│       ├── Train/         # Reusable components
-│       └── Valid/         # Reusable components
+│   │   └── Test/         # Reusable components
+│   │   ├── Train/         # Reusable components
+│   │   └── Valid/         # Reusable components
 │   └── data,yaml              # Root component
+├── Weights
 ├── README.md               # Project documentation
 └── LICENSE                 # License file
-
-ircraft_defect_yolov11/
-├── scripts/
-|    ├── inf.py
-|    ├── script.py
-|    ├── video_script.py
-├── configs/
-|    ├── data.yaml
-├── models/
-│    ├── best.pt
-│    ├── yolo11s.pt
-├── input/
-│    ├── 3.jpg
-│    ├── test_video.mp4
-├── runs/detect/aircraft_defect_yolov1111/
-│    ├── weights/
-│    │    ├── best.pt
-│    │    ├── last.pt
-├── dataset/
-│    ├── train/
-│    │    ├── images/
-│    │    ├── labels/
-│    ├── valid/
-│    │    ├── images/
-│    │    ├── labels/
-│    ├── test/
-│    │    ├── images/
-│    │    ├── labels/
-├── requirements.txt
-└── readme.md
 
 
 ## Screenshots
 
 The following image is based on the model training. Training summary;
+![Screenshot from 2025-05-12 11-27-10](https://github.com/user-attachments/assets/a78655c5-3de2-419c-8b1a-1a5f27a2ac70)
 
-
-
-Test video;
 
 ## Results
 
